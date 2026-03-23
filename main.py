@@ -17,7 +17,7 @@ app.add_middleware(
 
 # Load data
 movies = pickle.load(open("movies.pkl", "rb"))
-similarity = pickle.load(open("similarity.pkl", "rb"))
+
 
 def recommend(movie):
     movie = movie.lower()
